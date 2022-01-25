@@ -1,0 +1,116 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+section{
+    -webkit-box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.75);
+}
+
+.Fruit-list{
+    background-color: Gold;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Meat-list{
+    background-color: orangered;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Vegetables-list{
+    background-color: limegreen;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Fruit{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gold;
+}
+
+.Meat{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: orangered;
+}
+
+.Vegetables{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: limegreen;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+ol div{
+    background: WhiteSmoke;
+    margin: 2px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+ol div li{
+    list-style: none;
+}
+
+ol div figure{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+ol div img{
+    width: 20px;
+    height: 20px;
+}
+
+ol div div{
+    margin-right: 5px;
+    flex-grow: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
